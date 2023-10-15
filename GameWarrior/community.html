@@ -1,308 +1,356 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>game warrior</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-     <link rel="icon" href="img/favicon.ico" />
+  <title>game warrior</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/favicon.ico" />
 </head>
+
 <body>
-     <!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-    
-    <div class="mynav">
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <div class="mynav">
     <nav class="navbar navbar-default mynavbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="index.html" class="nav_link">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="review.html" class="nav_link">Games</a></li>
+            <li><a href="categories.html" class="nav_link">Blog</a></li>
+            <li><a href="community.html" class="nav_link">Forums</a></li>
+            <li><a href="contact.html" class="nav_link">Contact</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <button
+              style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 30px 10px 30px; margin: 0px; margin-top: 10px; border:none; color:black; "
+              type="button" class="btn btn-default navbar-btn">Login / Register</button>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class=""><a href="index.html" class="nav_link">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="review.html" class="nav_link">Games</a></li>
-        <li><a href="categories.html" class="nav_link">Blog</a></li>
-        <li><a href="community.html" class="nav_link">Forums</a></li>
-        <li><a href="contact.html" class="nav_link">Contact</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <button style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 30px 10px 30px; margin: 0px; margin-top: 10px; border:none; color:black; " type="button" class="btn btn-default navbar-btn">Login / Register</button>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    </div>
-    <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4 news">
+      <div class="col-md-4 col-sm-4 col-xs-4 news">
         <h1>Latest News</h1>
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-8 slide_effect">
-        <marquee direction="left" scrolldelay="0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="10">
-            <a style="background: #694eae;">RACING</a> Isum dolor sit amet, consectetur adipiscing elit.
-            <a style="background: #ff205f;">NEW</a> Isum dolor sit amet, consectetur adipiscing elit.
-            <a style="background: #4eae60;">STRATEGY</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </marquee>
-        </div>
-        </div>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-8 slide_effect">
+        <marquee direction="left" scrolldelay="0" onmouseover="this.stop();" onmouseout="this.start();"
+          scrollamount="10">
+          <a style="background: #694eae;">RACING</a> Isum dolor sit amet, consectetur adipiscing elit.
+          <a style="background: #ff205f;">NEW</a> Isum dolor sit amet, consectetur adipiscing elit.
+          <a style="background: #4eae60;">STRATEGY</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </marquee>
+      </div>
     </div>
-    <div class="container-fluid bg_top" style="background: url(img/page-top-bg/4.jpg); background-position: top center;">
-     <h2>Our Community</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada<br> lorem maximus mauris scelerisque, at rutrum nulla dictum.</p>
-    </div>
-    <section id="community">
-        <div style=" background-color: rgba(0,0,0,0.28); padding: 80px 0;">
-    <div class="container">
+  </div>
+  <div class="container-fluid bg_top" style="background: url(img/page-top-bg/4.jpg); background-position: top center;">
+    <h2>Our Community</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada<br> lorem maximus mauris scelerisque, at
+      rutrum nulla dictum.</p>
+  </div>
+  <section id="community">
+    <div style=" background-color: rgba(0,0,0,0.28); padding: 80px 0;">
+      <div class="container">
         <div class="row">
-        <div class="col-md-6">
+          <div class="col-md-6">
             <h2 style="color:black;">All Members (344) </h2>
-            </div>
-        <div class="col-md-6">
+          </div>
+          <div class="col-md-6">
             <div style="float: right; margin-top: 20px;">
-            <label style="font-size: 18px; font-weight: normal;">Show</label>
-                <select style="padding: 10px 85px 10px 20px; display: inline; margin-left: 10px; ">
+              <label style="font-size: 18px; font-weight: normal;">Show</label>
+              <select style="padding: 10px 85px 10px 20px; display: inline; margin-left: 10px; ">
                 <option>Everything</option>
                 <option>Everything</option>
-                </select>
-                </div>
+              </select>
             </div>
-            
-            <div class="col-md-12" style="margin-top: 80px;">
+          </div>
+
+          <div class="col-md-12" style="margin-top: 80px;">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/1.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>James Smith <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/1.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>James Smith <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/8.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>Partik Williams <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/8.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>Partik Williams <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                    <img src="img/attachment.jpg" style="margin-top: 65px;">
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+                <img src="img/attachment.jpg" style="margin-top: 65px;">
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/5.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>Cris The Man <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/5.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>Cris The Man <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/1.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>James Smith <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/1.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>James Smith <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/4.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>Cris The Man <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/4.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>Cris The Man <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/6.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>James Smith <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/6.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>James Smith <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
-            <div class="col-md-12">
+          </div>
+          <div class="col-md-12">
             <div class="member">
-                <div style="float:left;">
-                <img style="border-radius: 200px;" src="img/authors/7.jpg" height="63px" width="63px"></div>
-                <div style="padding-left: 100px;">
-                <p>Maria Doe <span> &nbsp;  &nbsp;posted an update</span></p>
+              <div style="float:left;">
+                <img style="border-radius: 200px;" src="img/authors/7.jpg" height="63px" width="63px">
+              </div>
+              <div style="padding-left: 100px;">
+                <p>Maria Doe <span> &nbsp; &nbsp;posted an update</span></p>
                 <h4>June 21, 2018</h4>
-                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam. Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc gravida interdum.</h3>
-                </div>
-                </div>
+                <h3>Lorem ipsum dolor sit amet, cdictum nisl onsectetur adipisc ing ipsum dolor sit ame. Lorem ipsum
+                  dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.Donec venenatis at eros sit amet aliquam.
+                  Donec vel orci efficitur, dictum nisl vitae, scelerisque nibh. Curabitur eget ipsum pulvinar nunc
+                  gravida interdum.</h3>
+              </div>
             </div>
+          </div>
         </div>
         <div class="my_pagin">
-            <a href="#" class="pag_active" >01.</a>
-            <a href="#" style="background: #e5e5e5;">02.</a>
-            <a href="#" style="background: #e5e5e5;">03.</a>
-            </div>
+          <a href="#" class="pag_active">01.</a>
+          <a href="#" style="background: #e5e5e5;">02.</a>
+          <a href="#" style="background: #e5e5e5;">03.</a>
         </div>
-            </div>
-    </section>
-    <section id="footer_bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-    <img src="img/footer-logo.png"><br><br><br>
-            <p style="color:white; font-size: 14px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
-                <div class="hidden-sm">   
-            <img style="max-width: 130%;"src="img/footer-top-bg.png">        </div> 
-            </div>
-            <div class=" col-md-4">
-                <div class="latest">
-                <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Latest Posts</h1>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/1.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
+      </div>
+    </div>
+  </section>
+  <section id="footer_bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/footer-logo.png"><br><br><br>
+          <p style="color:white; font-size: 14px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipisc ing
+            ipsum dolor sit ame.</p>
+          <div class="hidden-sm">
+            <img style="max-width: 130%;" src="img/footer-top-bg.png">
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest">
+            <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Latest Posts
+            </h1>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/1.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
 
-  </div>
-</div>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/2.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
-
-  </div>
-</div>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/3.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
-
-  </div>
-</div>
-                    </div>
-                </div>
-                <div class=" col-md-4">
-                <div class="latest">
-                <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Top Comments</h1>
-                <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/1.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-               <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/2.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/3.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                    <div class="media" style="padding-bottom: 6px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/4.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/2.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
+
+              </div>
             </div>
-        <div class="container-fluid footer_bottom">
-        <div class="row">
-            <div class="col-md-7">
-                <p>Copyright ©2020 All rights reserved | This template is made with  by <a href="#">Colorlib</a></p>
-                </div>
-            <div class="col-md-5 menu_bar">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="review.html" class="nav_link">Games</a></li>
-              <li><a href="categories.html" class="nav_link">Blog</a></li>
-              <li><a href="community.html" class="nav_link">Forums</a></li>
-              <li><a href="contact.html" class="nav_link">Contact</a></li>
-                </ul>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/3.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
+
+              </div>
             </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest">
+            <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Top Comments
+            </h1>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/1.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
             </div>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/2.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
             </div>
-    </section>
-    
-     <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.marquee.min.js"></script>
-	<script src="js/main.js"></script>
-    
-    </body>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/3.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
+            </div>
+            <div class="media" style="padding-bottom: 6px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/4.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer_bottom">
+      <div class="row">
+        <div class="col-md-7">
+          <p>Copyright ©2020 All rights reserved | This template is made with by <a href="#">Colorlib</a></p>
+        </div>
+        <div class="col-md-5 menu_bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="review.html">Games</a></li>
+            <li><a href="categories.html">Blog</a></li>
+            <li><a href="community.html">Forums</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.marquee.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
