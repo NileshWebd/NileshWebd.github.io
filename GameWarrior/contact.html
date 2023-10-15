@@ -1,252 +1,278 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>game warrior</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-     <link rel="icon" href="img/favicon.ico" />
+  <title>game warrior</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/favicon.ico" />
 </head>
+
 <body>
-     <!-- Page Preloder -->
-	<div id="preloder">
-		<div class="loader"></div>
-	</div>
-    
-    <div class="mynav">
+  <!-- Page Preloder -->
+  <div id="preloder">
+    <div class="loader"></div>
+  </div>
+
+  <div class="mynav">
     <nav class="navbar navbar-default mynavbar">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class=""><a href="index.html" class="nav_link">Home<span class="sr-only">(current)</span></a></li>
+            <li><a href="review.html" class="nav_link">Games</a></li>
+            <li><a href="categories.html" class="nav_link">Blog</a></li>
+            <li><a href="community.html" class="nav_link">Forums</a></li>
+            <li><a href="contact.html" class="nav_link">Contact</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <button
+              style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 30px 10px 30px; margin: 0px; margin-top: 10px; border:none; color:black; "
+              type="button" class="btn btn-default navbar-btn">Login / Register</button>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
   <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img src="img/logo.png" /></a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class=""><a href="index.html" class="nav_link">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="review.html" class="nav_link">Games</a></li>
-        <li><a href="categories.html" class="nav_link">Blog</a></li>
-        <li><a href="community.html" class="nav_link">Forums</a></li>
-        <li><a href="contact.html" class="nav_link">Contact</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <button style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 30px 10px 30px; margin: 0px; margin-top: 10px; border:none; color:black; " type="button" class="btn btn-default navbar-btn">Login / Register</button>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    </div>
-    <div class="container-fluid">
     <div class="row">
-        <div class="col-md-4 col-sm-4 col-xs-4 news">
+      <div class="col-md-4 col-sm-4 col-xs-4 news">
         <h1>Latest News</h1>
-        </div>
-        <div class="col-md-8 col-sm-8 col-xs-8 slide_effect">
-        <marquee direction="left" scrolldelay="0" onmouseover="this.stop();" onmouseout="this.start();" scrollamount="10">
-            <a style="background: #694eae;">RACING</a> Isum dolor sit amet, consectetur adipiscing elit.
-            <a style="background: #ff205f;">NEW</a> Isum dolor sit amet, consectetur adipiscing elit.
-            <a style="background: #4eae60;">STRATEGY</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </marquee>
-        </div>
-        </div>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-8 slide_effect">
+        <marquee direction="left" scrolldelay="0" onmouseover="this.stop();" onmouseout="this.start();"
+          scrollamount="10">
+          <a style="background: #694eae;">RACING</a> Isum dolor sit amet, consectetur adipiscing elit.
+          <a style="background: #ff205f;">NEW</a> Isum dolor sit amet, consectetur adipiscing elit.
+          <a style="background: #4eae60;">STRATEGY</a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </marquee>
+      </div>
     </div>
-    <div class="container-fluid bg_top" style="background: url(img/page-top-bg/5.jpg); background-position: top center;">
-     <h2>Contact us</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada<br> lorem maximus mauris scelerisque, at rutrum nulla dictum.</p>
-    </div>
-   <section id="contact">
+  </div>
+  <div class="container-fluid bg_top" style="background: url(img/page-top-bg/5.jpg); background-position: top center;">
+    <h2>Contact us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada<br> lorem maximus mauris scelerisque, at
+      rutrum nulla dictum.</p>
+  </div>
+  <section id="contact">
     <div class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52164.3642799745!2d-120.75496565454974!3d35.199674096777876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ecf834e9cc5417%3A0x5c42c6f63f4629b6!2sAvila%20Beach%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1585905977473!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br><br><br><br>
-       <div class="row">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52164.3642799745!2d-120.75496565454974!3d35.199674096777876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ecf834e9cc5417%3A0x5c42c6f63f4629b6!2sAvila%20Beach%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1585905977473!5m2!1sen!2sin"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe><br><br><br><br>
+      <div class="row">
         <div class="col-md-4 contact_us">
-           <h2>Contact us</h2><br><br>
-            <p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feug iat bibendum orci, non elementum urna. Cras sit amet sapien aliquam</p><br><br><br>
-            <table>
+          <h2>Contact us</h2><br><br>
+          <p>Odio ultrices ut. Etiam ac erat ut enim maximus accumsan vel ac nisl. Duis feug iat bibendum orci, non
+            elementum urna. Cras sit amet sapien aliquam</p><br><br><br>
+          <table>
             <tr>
-                <th>Address</th>
-                <td>1481 Creekside Lane</td>
-                </tr>
-                <tr>
-                <th></th>    
-                <td style="padding-top: 0px;">Avila Beach, CA 931</td>
-                </tr>
-                <tr>
-                <th>Phone</th>
-                <td>+53 345 7953 32453</td>
-                </tr>
-                <tr>
-                <th>E-mail</th>
-                <td>yourmail@gmail.com</td>
-                </tr>
-            </table>
-           </div>
-        <div class="col-md-8 reply">
-           <h2>Leave a Reply</h2><br><br>
-            <form class="comment_form">
-            <div class="row">
-                <div class="col-md-6">
-                <input type="text" placeholder="Name">
-                </div>
-                <div class="col-md-6">
-                <input type="email" placeholder="Email">
-                </div>
-                <div class="col-md-12">
-                <input type="text" placeholder="Subject">
-                </div>
-                <div class="col-md-12">
-                <textarea cols="12" rows="14" placeholder="Message"></textarea>
-                </div>
-                </div>
-            </form>
-            <button style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 60px 10px 60px; margin: 0px; margin-top: 10px; border:none; color:black; " type="button" class="btn btn-default navbar-btn">Send</button>
-           </div>
+              <th>Address</th>
+              <td>1481 Creekside Lane</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td style="padding-top: 0px;">Avila Beach, CA 931</td>
+            </tr>
+            <tr>
+              <th>Phone</th>
+              <td>+53 345 7953 32453</td>
+            </tr>
+            <tr>
+              <th>E-mail</th>
+              <td>yourmail@gmail.com</td>
+            </tr>
+          </table>
         </div>
-       </div>
-    </section>
-    <section id="footer_bar">
-        <div class="container">
+        <div class="col-md-8 reply">
+          <h2>Leave a Reply</h2><br><br>
+          <form class="comment_form">
             <div class="row">
-                <div class="col-md-4">
-    <img src="img/footer-logo.png"><br><br><br>
-            <p style="color:white; font-size: 14px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit ame.</p>
-                <div class="hidden-sm">   
-            <img style="max-width: 130%;"src="img/footer-top-bg.png">        </div> 
+              <div class="col-md-6">
+                <input type="text" placeholder="Name">
+              </div>
+              <div class="col-md-6">
+                <input type="email" placeholder="Email">
+              </div>
+              <div class="col-md-12">
+                <input type="text" placeholder="Subject">
+              </div>
+              <div class="col-md-12">
+                <textarea cols="12" rows="14" placeholder="Message"></textarea>
+              </div>
             </div>
-            <div class=" col-md-4">
-                <div class="latest">
-                <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Latest Posts</h1>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/1.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
+          </form>
+          <button
+            style="background: #ffb320; border-radius: 20px;padding: 0px; padding: 10px 60px 10px 60px; margin: 0px; margin-top: 10px; border:none; color:black; "
+            type="button" class="btn btn-default navbar-btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer_bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/footer-logo.png"><br><br><br>
+          <p style="color:white; font-size: 14px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipisc ing
+            ipsum dolor sit ame.</p>
+          <div class="hidden-sm">
+            <img style="max-width: 130%;" src="img/footer-top-bg.png">
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest">
+            <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Latest Posts
+            </h1>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/1.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
 
-  </div>
-</div>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/2.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
-
-  </div>
-</div>
-                <div class="media post">
-  <div class="media-left media-middle">
-    <a href="">
-      <img class="media-object" src="img/latest-blog/3.jpg" height="97px" width="97px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body">
-    <h4 class="media-heading">
-June 21, 2018</h4>
-      <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
-      <a href="#"> By Admin</a>
-
-  </div>
-</div>
-                    </div>
-                </div>
-                <div class=" col-md-4">
-                <div class="latest">
-                <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Top Comments</h1>
-                <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/1.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-               <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/2.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                <div class="media" style="padding-bottom: 10px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/3.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                    <div class="media" style="padding-bottom: 6px;">
-  <div class="media-left media-top">
-    <a href="">
-      <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object" src="img/authors/4.jpg" height="63px" width="63px;" alt="...">
-    </a>
-  </div>
-  <div class="media-body comment">
-      <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co</p>
-    <h4 class="media-heading">
-June 21, 2018</h4>
-
-  </div>
-</div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/2.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
+
+              </div>
             </div>
-        <div class="container-fluid footer_bottom">
-        <div class="row">
-            <div class="col-md-7">
-                <p>Copyright ©2020 All rights reserved | This template is made with  by <a href="#">Colorlib</a></p>
-                </div>
-            <div class="col-md-5 menu_bar">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Forums</a></li>
-                <li><a href="#">Contact</a></li>
-                </ul>
+            <div class="media post">
+              <div class="media-left media-middle">
+                <a href="">
+                  <img class="media-object" src="img/latest-blog/3.jpg" height="97px" width="97px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+                <p>Lorem ipsum dolor sit amet,<br> consectetur adipisc ing ipsum</p>
+                <a href="#"> By Admin</a>
+
+              </div>
             </div>
+          </div>
+        </div>
+        <div class=" col-md-4">
+          <div class="latest">
+            <h1 style="color:white; font-size: 25px; font-weight: 500;margin: 0px; margin-bottom: 40px;">Top Comments
+            </h1>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/1.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
             </div>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/2.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
             </div>
-    </section>
-    
-     <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.marquee.min.js"></script>
-	<script src="js/main.js"></script>
-    </body>
+            <div class="media" style="padding-bottom: 10px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/3.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
+            </div>
+            <div class="media" style="padding-bottom: 6px;">
+              <div class="media-left media-top">
+                <a href="">
+                  <img style="border-radius:200px; margin:0px; margin-right: 30px;" class="media-object"
+                    src="img/authors/4.jpg" height="63px" width="63px;" alt="...">
+                </a>
+              </div>
+              <div class="media-body comment">
+                <p><a href="#">James Smith</a> <span style="color:#878787;">on</span> Lorem ipsum dolor<br> sit amet, co
+                </p>
+                <h4 class="media-heading">
+                  June 21, 2018</h4>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid footer_bottom">
+      <div class="row">
+        <div class="col-md-7">
+          <p>Copyright ©2020 All rights reserved | This template is made with by <a href="#">Colorlib</a></p>
+        </div>
+        <div class="col-md-5 menu_bar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="review.html" class="nav_link">Games</a></li>
+            <li><a href="categories.html" class="nav_link">Blog</a></li>
+            <li><a href="community.html" class="nav_link">Forums</a></li>
+            <li><a href="contact.html" class="nav_link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.marquee.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
