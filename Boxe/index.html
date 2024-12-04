@@ -195,11 +195,10 @@ adipiscing elit, sed do eiusmod</p>
         <section id="delivery">
         <div class="container">
             <div class="head_line">
-            <h1>Recent Deliveriessst</h1>
+            <h1>Recent Deliveries</h1>
             </div><br><br><br>
             <div class="row">
             <div class="col-md-4 col-sm-6">
-                <div class="mySlides fade">
                 <div class="cardbox">
                 <img src="img/deliveries/deliveries_1.png" width="100%" />
                 <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
@@ -212,10 +211,8 @@ adipiscing elit, sed do eiusmod</p>
                     </div>
                     </div>
                     </div>
-                    </div>
                 </div>
             <div class="col-md-4 col-sm-6">
-                <div class="mySlides fade">
                 <div class="cardbox">
                 <img src="img/deliveries/deliveries_2.png" width="100%" />
                 <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
@@ -229,9 +226,7 @@ adipiscing elit, sed do eiusmod</p>
                     </div>
                     </div>
                 </div>
-                </div>
             <div class="col-md-4 col-sm-6">
-                <div class="mySlides fade">
                 <div class="cardbox">
                 <img src="img/deliveries/deliveries_3.png" width="100%" />
                 <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
@@ -245,12 +240,6 @@ adipiscing elit, sed do eiusmod</p>
                     </div>
                     </div>
                 </div>
-                </div>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                  </div>
             </div>
             </div>
         </section>
@@ -358,33 +347,5 @@ adipiscing elit, sed do eiusmod</p>
             </div>
             </div>
         </section>
-        <script>
-            let slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              let i;
-              let slides = document.getElementsByClassName("mySlides");
-              let dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-            </script>
     </body>
 </html>
