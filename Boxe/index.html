@@ -7,7 +7,6 @@ my web
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/style.css" />
@@ -203,48 +202,50 @@ adipiscing elit, sed do eiusmod</p>
             <div class="head_line">
             <h1>Recent Deliveries</h1>
             </div><br><br><br>
-            <div class="owl-carousel">
-                <div class="item">
-                    <div class="cardbox">
-                        <img src="img/deliveries/deliveries_1.png" width="100%" />
-                        <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
-                        <div class="row delbox">
-                            <div class="col-xs-1">
-                                <img src="img/deliveries_img.png" />
-                            </div>
-                            <div class="col-xs-11">
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="cardbox">
-                        <img src="img/deliveries/deliveries_2.png" width="100%" />
-                        <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
-                        <div class="row delbox">
-                            <div class="col-xs-1">
-                                <img src="img/deliveries_img.png" />
-                            </div>
-                            <div class="col-xs-11">
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+            <div class="row">
+                <div class="owl-carousel">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cardbox">
+                            <img src="img/deliveries/deliveries_1.png" width="100%" />
+                            <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
+                            <div class="row delbox">
+                                <div class="col-xs-1">
+                                    <img src="img/deliveries_img.png" />
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="cardbox">
-                        <img src="img/deliveries/deliveries_3.png" width="100%" />
-                        <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
-                        <div class="row delbox">
-                            <div class="col-xs-1">
-                                <img src="img/deliveries_img.png" />
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cardbox">
+                            <img src="img/deliveries/deliveries_2.png" width="100%" />
+                            <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
+                            <div class="row delbox">
+                                <div class="col-xs-1">
+                                    <img src="img/deliveries_img.png" />
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                </div>
                             </div>
-                            <div class="col-xs-11">
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
-                                <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cardbox">
+                            <img src="img/deliveries/deliveries_3.png" width="100%" />
+                            <h2 style="padding-left: 20px; font-size: 24px; font-weight: bold;">World Cargo</h2><br>
+                            <div class="row delbox">
+                                <div class="col-xs-1">
+                                    <img src="img/deliveries_img.png" />
+                                </div>
+                                <div class="col-xs-11">
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                    <p>324 king Heaven tower, House no<br> Melbourne, VIC-222,Australia</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -362,7 +363,7 @@ adipiscing elit, sed do eiusmod</p>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
                 loop: true,
-                margin: 10,
+                margin: 30, /* Adjust spacing between cards */
                 nav: true,
                 dots: true,
                 autoplay: true,
