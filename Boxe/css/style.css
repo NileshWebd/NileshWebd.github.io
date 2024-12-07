@@ -795,3 +795,14 @@ form a:hover{
     color:#8a8a8a;
     padding-left: 20px;
 }
+/* Adjust carousel height to fit your cards */
+#multiCardCarousel .carousel-inner .item {
+    min-height: 300px;
+}
+
+/* Add spacing between cards */
+.cardbox {
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
