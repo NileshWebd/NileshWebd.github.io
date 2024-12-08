@@ -278,7 +278,7 @@
     background: none;
     font-size: 14px;
     border-radius: 3px !important;
-    margin-bottom:;
+    /* margin-bottom:; */
     padding-top:20px;
     padding-bottom:20px;
 }
@@ -795,3 +795,11 @@ form a:hover{
     color:#8a8a8a;
     padding-left: 21px;
 }
+.carousel-inner .row {
+    display: flex;
+  }
+  
+  .carousel-inner .cardbox {
+    margin: 0;
+    padding: 10px;
+  }
