@@ -803,3 +803,36 @@ form a:hover{
     margin: 0;
     padding: 10px;
   }
+
+/* Remove carousel item shadow */
+.carousel-inner {
+    box-shadow: none !important;
+  }
+  
+  /* Ensure the cards inside the carousel are aligned */
+  .carousel-inner .row {
+    display: flex;
+  }
+  
+  /* Adjust the previous/next arrows to be outside the slide */
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  /* Space the arrows outside the carousel */
+  .carousel-control.left {
+    left: -50px;
+  }
+  
+  .carousel-control.right {
+    right: -50px;
+  }
+  
+  /* Optionally adjust the size of the arrows */
+  .carousel-control .glyphicon {
+    font-size: 30px; /* Adjust as needed */
+  }
+  
