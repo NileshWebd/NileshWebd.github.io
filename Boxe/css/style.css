@@ -826,6 +826,10 @@ form a:hover{
   .nav-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
+  #nextBtn:focus, #prevBtn:focus {
+    background-color: none;
+  }
+  
 
 
   
