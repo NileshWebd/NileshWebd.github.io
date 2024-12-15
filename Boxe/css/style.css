@@ -804,30 +804,30 @@ form a:hover{
   
   .nav-btn {
     position: absolute;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff;
+    background-color: transparent;
+    /* color: #fff; */
     border: none;
-    font-size: 32px;
+    font-size: 50px;
     padding: 10px 20px;
     cursor: pointer;
     z-index: 1000; /* Ensure buttons are above the carousel */
   }
   
   #prevBtn {
-    left: 10px;
+    left: 200px;
   }
   
   #nextBtn {
-    right: 10px;
+    right: 200px;
   }
   
   .nav-btn:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   #nextBtn:focus, #prevBtn:focus {
-    background-color: none;
+    background: none;
   }
   
 
