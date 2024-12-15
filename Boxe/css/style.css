@@ -354,6 +354,7 @@
 }
 #delivery{
     padding:150px 0px 100px 0px;
+    position: relative;
 }
 .head_line h1{
     margin: 0px;
