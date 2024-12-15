@@ -254,6 +254,11 @@ adipiscing elit, sed do eiusmod</p>
                 </div>
                 <!-- Add more slides if needed -->
               </div>
+
+
+         <!-- Navigation Buttons -->
+         <button id="prevBtn" class="nav-btn">‹</button>
+         <button id="nextBtn" class="nav-btn">›</button>
               
               
             </div>
@@ -367,21 +372,44 @@ adipiscing elit, sed do eiusmod</p>
 <!-- Owl Carousel JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+<script>
+  $(document).ready(function() {
+    $(".owl-carousel").owlCarousel({
+      items: 3,                  // Show 3 items at a time
+      margin: 10,                // Add margin between items
+      loop: true,                // Infinite loop
+      nav: true,                 // Enable next/prev navigation
+      dots: false,               // Disable dots (optional)
+      autoplay: true,            // Enable autoplay (optional)
+      autoplayTimeout: 3000,     // Time between auto slides (optional)
+      autoplayHoverPause: true   // Pause autoplay on hover (optional)
+    });
+  });
+
+  $(document).ready(function () {
+  var owl = $(".owl-carousel");
+
+  // Initialize Owl Carousel
+  owl.owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: false, // Disable default navigation
+    dots: false, // Disable dots
+    items: 1, // Number of slides shown
+  });
+
+  // Custom Navigation Buttons
+  $("#prevBtn").click(function () {
+    owl.trigger("prev.owl.carousel");
+  });
+
+  $("#nextBtn").click(function () {
+    owl.trigger("next.owl.carousel");
+  });
+});
+</script>
+
     </body>
-    <script>
-        $(document).ready(function() {
-          $(".owl-carousel").owlCarousel({
-            items: 3,                  // Show 3 items at a time
-            margin: 10,                // Add margin between items
-            loop: true,                // Infinite loop
-            nav: true,                 // Enable next/prev navigation
-            dots: false,               // Disable dots (optional)
-            autoplay: true,            // Enable autoplay (optional)
-            autoplayTimeout: 3000,     // Time between auto slides (optional)
-            autoplayHoverPause: true   // Pause autoplay on hover (optional)
-          });
-        });
-      </script>
-      
+    
 
 </html>

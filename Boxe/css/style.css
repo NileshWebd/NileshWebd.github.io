@@ -801,35 +801,31 @@ form a:hover{
     justify-content: center;
   }
   
-  /* Customize the navigation arrows to be outside */
-  .owl-carousel .owl-nav {
+  .nav-btn {
     position: absolute;
     top: 50%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
     transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 32px;
+    padding: 10px 20px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure buttons are above the carousel */
   }
   
-  .owl-carousel .owl-nav .owl-prev, 
-  .owl-carousel .owl-nav .owl-next {
-    background-color: rgba(0, 0, 0, 0.5);  /* Optional: dark background for buttons */
-    color: white;                           /* Button text color */
-    font-size: 30px;                        /* Font size for arrows */
-    padding: 10px;
+  #prevBtn {
+    left: 10px;
   }
   
-  .owl-carousel .owl-prev {
-    left: -50px;  /* Adjust position of left button */
+  #nextBtn {
+    right: 10px;
   }
   
-  .owl-carousel .owl-next {
-    right: -50px; /* Adjust position of right button */
+  .nav-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
   }
-  
-  /* Optional: Remove default styling for dots (if any) */
-  .owl-carousel .owl-dots {
-    display: none;
-  }
+
+
   
   
