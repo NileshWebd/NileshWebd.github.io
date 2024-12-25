@@ -93,6 +93,35 @@
     transform: translateY(8%);
     transition: 0.5s;
 }
+.nav-right{
+    position:relative;
+    padding-top:12px;
+}
+.nav-right input{
+    border: none;
+    padding: 3px 10px;
+    border-radius:20px;
+    background-color: transparent;
+    width:0px;
+    outline: none;
+    transition: width 0.4s ease-in-out;
+}
+.nav-right input[type=text]:focus{
+    width: 100%;
+    background-color: white;
+}
+.nav-right label{
+    position: absolute;
+    top:18px;
+    right:10px;
+    color: white;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.nav-right input:focus + label{
+    color:#6254fd;  
+    transform: rotate(360deg)
+}
 .box{
     height: 200px;
     width:500px;
