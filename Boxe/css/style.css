@@ -72,6 +72,7 @@
     background: #6254fd;
     border-radius:5px;
     padding: 10px;
+    transition: 0.5s;
 }
 .mynav ul li ul li{
     list-style: none;
@@ -90,8 +91,8 @@
 }
 .mynav ul li:hover ul{
     visibility: visible;
-    transform: translateY(8%);
-    transition: 0.5s;
+    transform: translateY(3%);
+    transition-delay: 0.1s;
 }
 .nav-right{
     position:relative;
