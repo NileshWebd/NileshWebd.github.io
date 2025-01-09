@@ -2,6 +2,7 @@
    background: url(img/banner_bg.png);
    background-repeat: no-repeat;
    background-position: center;
+   background-size: cover;
    
 }
 .myban h1{
@@ -855,6 +856,15 @@ form a:hover{
   
   #nextBtn:focus, #prevBtn:focus {
     background: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .myban{
+        background-position: left;
+    }
+    .navbar-right {
+      display: none;
+    }
   }
   
 
