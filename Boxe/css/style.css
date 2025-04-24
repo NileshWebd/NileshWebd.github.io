@@ -159,6 +159,13 @@
 #about{
     padding-top: 100px;
 }
+.whitebox{
+        background: #f3f1ef;
+        width: 1109px;
+        height: 704px;
+        position: absolute;
+        margin: 175px 0px 0px 135px;
+}
 .info{
     margin-top: 100px;
     background: #6245fd;
@@ -861,9 +868,27 @@ form a:hover{
   @media screen and (max-width: 600px) {
     .myban{
         background-position: left;
+        max-width: 100%;
     }
     .navbar-right {
       display: none;
+    }
+
+    .whitebox{
+        max-width: 500px;
+        height: auto;
+        margin: auto;
+        position: relative;
+        background: none;
+    }
+    .whitebox h1{
+        margin-left: 0 !important;
+    }
+    .imag{
+      display: none;
+    }
+    .info{
+        margin-left: 0;
     }
   }
   
