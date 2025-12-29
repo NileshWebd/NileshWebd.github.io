@@ -1,0 +1,428 @@
+body {
+    font-family: 'Netflix sans', Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/3.jpg");
+    background-size: 2058px 1158px;
+    background-position: top;
+    min-height: 850px;
+
+}
+
+.upperPart {
+    padding: 24px 73px 24px !important;
+}
+
+.logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+    display: block;
+}
+
+.signbox {
+    margin-top: 28px;
+    max-width: 480px;
+    min-height: 710px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    padding: 38px 64px;
+    border-radius: 5px;
+}
+
+.signbox h1 {
+    margin: 0px;
+    margin: 10px 0 30px;
+    color: white;
+    /* font-family: 'Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif'; */
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.alertbox {
+    /* height: 90px; */
+    /* width: 350px; */
+    color: black;
+    margin-bottom: 25px ;
+    border-radius: 4px;
+    background-color: rgb(216, 157, 49);
+    display: none;
+}
+
+.alertbox p{
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+    font-family: 'Netflix sans';
+    font-weight: 100;
+    font-size: 1em;
+    
+}
+
+.myform .input-container {
+    position: relative;
+}
+
+.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Netflix sans';
+    font-weight: 100;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+}
+
+/* Animation when focused or when input has text */
+.input-container input:focus+label,
+.input-container input:not(:placeholder-shown)+label {
+    top: 15px;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.myform input {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); */
+    background: rgba(30, 30, 30, 0.4);
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    padding: 15px 15px;
+    color: white !important;
+    font-weight: 500;
+
+
+}
+
+.myform input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Netflix sans';
+    font-weight: 100;
+}
+
+.myform input:focus {
+    background: rgba(30, 30, 30, 0.4);
+    border: 1px solid grey;
+    outline: 2px solid white;
+    outline-offset: 2px;
+    box-shadow: none !important
+}
+
+  /* error border */
+  #email.error-border,  #pass.error-border {
+      border: 1px solid red;
+  }
+
+  #error {
+      /* display: none; */
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+  }
+  #errorTwo {
+      /* display: none; */
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+  }
+
+.password-container {
+    position: relative;
+}
+
+.password-container svg {
+    position: absolute;
+    top: 1.20rem;
+    right: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.password-container #hide {
+    display: none;
+}
+
+.rate {
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 14.5px;
+    font-weight: 400;
+    display: none;
+    margin-bottom: 12px;
+}
+
+
+.myform button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 0;
+    font-family: 'Netflix sans', arial;
+    background-color: rgba(128, 128, 128, 0.4);
+
+}
+
+.myform button:hover {
+    background-color: rgba(128, 128, 128, 0.3);
+
+}
+
+.myform button:active {
+    background-color: rgba(128, 128, 128, 0.3) !important;
+
+}
+
+.myform .redbtn {
+    background-color: rgb(229, 9, 20);
+    padding: 8px 0;
+
+}
+
+.myform .redbtn:hover {
+    background-color: rgb(193, 17, 25);
+}
+
+.myform .redbtn:active {
+    background-color: rgb(153, 22, 29) !important;
+}
+
+
+.myform .or {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-family: 'Netflix sans', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 15px 0 14px;
+}
+
+.myform .forgot {
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin: 15px 0;
+    font-family: 'Netflix sans' Arial, Helvetica, sans-serif;
+}
+
+.myform .forgot:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.myform .check {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: white;
+
+}
+
+.myform .check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.911);
+    border-radius: 2px;
+    transition: .5s;
+}
+
+
+/* On mouse-over, add a grey background color */
+.check:hover input~.checkmark {
+    border: 1px solid white !important;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked~.checkmark {
+    background-color: #eee;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.newsign span {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 17px;
+    word-spacing: -1px;
+}
+
+.newsign a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: -1px;
+}
+
+.newsign a:hover {
+
+    text-decoration: underline;
+
+}
+
+.para {
+    margin: 0px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.548);
+    font-size: 13.5px;
+    margin-top: 18px;
+    line-height: 15px;
+}
+
+.learnmore {
+    display: inline-block;
+    margin-top: 9px;
+    font-size: 13px;
+    color: rgb(68, 142, 244);
+}
+
+.lowerPart {
+    border-top: 1px solid rgb(35, 35, 35);
+    background-color: rgb(22, 22, 22);
+    padding: 70px 50px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.footer {
+    max-width: 1177px;
+    /* padding-left: 365px; */
+    margin: 0 auto;
+}
+
+.footer b {
+    font-weight: 500;
+}
+
+.lists>div {
+    padding-top: 15px;
+}
+
+.lists>div a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+
+.lang {
+    position: relative;
+    margin-top: 30px;
+    color: white;
+}
+
+.lang svg {
+    position: absolute;
+    top: 8px;
+    z-index: 1;
+    left: 12px;
+}
+
+.lang select {
+    appearance: none;
+    -webkit-appearance: none;
+    /* Safari & Chrome */
+    -moz-appearance: none;
+    /* Firefox */
+    background-color: transparent;
+    padding: 2px 35px;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    z-index: 2;
+}
+
+.lang select option {
+    color: black
+}
+
+.lang::after {
+    content: "";
+    position: absolute;
+    left: 8.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid white;
+    /* arrow color */
+    pointer-events: none;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+
+    .wrapper {
+        background: black;
+        min-height: 800px;
+    }
+
+    .upperPart {
+        padding: 24px 0px 24px !important;
+    }
+    .lowerPart {
+        padding: 35px 25px;
+    }
+
+    .logo {
+        width: 5.56rem;
+        height: 1.5rem;
+        margin-left: 24px;
+    }
+
+    .signbox {
+        padding: 38px 20px;
+    }
+
+}
